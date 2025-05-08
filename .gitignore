@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+
+# Firebase
+GoogleService-Info.plist
+
+# Swift Package Manager
+Packages/
+.swiftpm/
+.build/
+
+# Node
+node_modules/

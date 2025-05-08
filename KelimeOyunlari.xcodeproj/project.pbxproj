@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1BA18F2DBF8B3A004F6D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA18E2DBF8B3A004F6D6D /* AppDelegate.swift */; };
+		CE1BA1932DBF8E74004F6D6D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA1922DBF8E74004F6D6D /* RegisterView.swift */; };
+		CE1BA1972DBF8E96004F6D6D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA1962DBF8E96004F6D6D /* LoginView.swift */; };
+		CE1BA1992DBF925F004F6D6D /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA1982DBF925F004F6D6D /* GamePage.swift */; };
+		CE1BA19F2DBFA8EF004F6D6D /* ActiveGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA19E2DBFA8EF004F6D6D /* ActiveGamesView.swift */; };
+		CE1BA1A12DBFA97E004F6D6D /* FinishedGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA1A02DBFA97E004F6D6D /* FinishedGamesView.swift */; };
+		CE1BA1A32DBFAAAE004F6D6D /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA1A22DBFAAAE004F6D6D /* GameModel.swift */; };
+		CE1EE87C2DC75630004A5111 /* LetterTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1EE87B2DC75630004A5111 /* LetterTileView.swift */; };
+		CE4F895E2DC16E99007EBA8E /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F895D2DC16E99007EBA8E /* GameBoardView.swift */; };
+		CE4F89602DC17C21007EBA8E /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F895F2DC17C21007EBA8E /* TopBarView.swift */; };
+		CE4F89622DC1898F007EBA8E /* turkce_kelime_listesi.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE4F89612DC1898F007EBA8E /* turkce_kelime_listesi.txt */; };
+		CE4F89642DC189AA007EBA8E /* WordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F89632DC189AA007EBA8E /* WordValidator.swift */; };
+		CE5C915E2DC203D500310B57 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C915D2DC203D500310B57 /* FirestoreService.swift */; };
+		CE5C91602DC2040400310B57 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C915F2DC2040400310B57 /* GameData.swift */; };
+		CE858AF42DBF852B00639EBC /* KelimeOyunlariApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE858AF32DBF852B00639EBC /* KelimeOyunlariApp.swift */; };
+		CE858AF62DBF852B00639EBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE858AF52DBF852B00639EBC /* ContentView.swift */; };
+		CE858AF82DBF852E00639EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE858AF72DBF852E00639EBC /* Assets.xcassets */; };
+		CE858AFB2DBF852E00639EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE858AFA2DBF852E00639EBC /* Preview Assets.xcassets */; };
+		CE858B052DBF852E00639EBC /* KelimeOyunlariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE858B042DBF852E00639EBC /* KelimeOyunlariTests.swift */; };
+		CE858B0F2DBF852E00639EBC /* KelimeOyunlariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE858B0E2DBF852E00639EBC /* KelimeOyunlariUITests.swift */; };
+		CE858B112DBF852E00639EBC /* KelimeOyunlariUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE858B102DBF852E00639EBC /* KelimeOyunlariUITestsLaunchTests.swift */; };
+		CE858B1F2DBF866900639EBC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE858B1E2DBF866900639EBC /* FirebaseAuth */; };
+		CE858B212DBF866900639EBC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE858B202DBF866900639EBC /* FirebaseFirestore */; };
+		CE858B232DBF871500639EBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE858B222DBF871500639EBC /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE858B012DBF852E00639EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE858AE82DBF852B00639EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE858AEF2DBF852B00639EBC;
+			remoteInfo = KelimeOyunlari;
+		};
+		CE858B0B2DBF852E00639EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE858AE82DBF852B00639EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE858AEF2DBF852B00639EBC;
+			remoteInfo = KelimeOyunlari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1BA18E2DBF8B3A004F6D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE1BA1922DBF8E74004F6D6D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		CE1BA1962DBF8E96004F6D6D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CE1BA1982DBF925F004F6D6D /* GamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
+		CE1BA19E2DBFA8EF004F6D6D /* ActiveGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveGamesView.swift; sourceTree = "<group>"; };
+		CE1BA1A02DBFA97E004F6D6D /* FinishedGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedGamesView.swift; sourceTree = "<group>"; };
+		CE1BA1A22DBFAAAE004F6D6D /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		CE1EE87B2DC75630004A5111 /* LetterTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterTileView.swift; sourceTree = "<group>"; };
+		CE4F895D2DC16E99007EBA8E /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		CE4F895F2DC17C21007EBA8E /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		CE4F89612DC1898F007EBA8E /* turkce_kelime_listesi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = turkce_kelime_listesi.txt; sourceTree = "<group>"; };
+		CE4F89632DC189AA007EBA8E /* WordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordValidator.swift; sourceTree = "<group>"; };
+		CE5C915D2DC203D500310B57 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		CE5C915F2DC2040400310B57 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		CE858AF02DBF852B00639EBC /* KelimeOyunlari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KelimeOyunlari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE858AF32DBF852B00639EBC /* KelimeOyunlariApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeOyunlariApp.swift; sourceTree = "<group>"; };
+		CE858AF52DBF852B00639EBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE858AF72DBF852E00639EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE858AFA2DBF852E00639EBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE858B002DBF852E00639EBC /* KelimeOyunlariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelimeOyunlariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE858B042DBF852E00639EBC /* KelimeOyunlariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeOyunlariTests.swift; sourceTree = "<group>"; };
+		CE858B0A2DBF852E00639EBC /* KelimeOyunlariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelimeOyunlariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE858B0E2DBF852E00639EBC /* KelimeOyunlariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeOyunlariUITests.swift; sourceTree = "<group>"; };
+		CE858B102DBF852E00639EBC /* KelimeOyunlariUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeOyunlariUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE858B222DBF871500639EBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE858AED2DBF852B00639EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE858B1F2DBF866900639EBC /* FirebaseAuth in Frameworks */,
+				CE858B212DBF866900639EBC /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE858AFD2DBF852E00639EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE858B072DBF852E00639EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE858AE72DBF852B00639EBC = {
+			isa = PBXGroup;
+			children = (
+				CE1EE87B2DC75630004A5111 /* LetterTileView.swift */,
+				CE5C915F2DC2040400310B57 /* GameData.swift */,
+				CE5C915D2DC203D500310B57 /* FirestoreService.swift */,
+				CE4F89632DC189AA007EBA8E /* WordValidator.swift */,
+				CE4F89612DC1898F007EBA8E /* turkce_kelime_listesi.txt */,
+				CE4F895F2DC17C21007EBA8E /* TopBarView.swift */,
+				CE4F895D2DC16E99007EBA8E /* GameBoardView.swift */,
+				CE1BA1A22DBFAAAE004F6D6D /* GameModel.swift */,
+				CE1BA1A02DBFA97E004F6D6D /* FinishedGamesView.swift */,
+				CE1BA19E2DBFA8EF004F6D6D /* ActiveGamesView.swift */,
+				CE1BA1982DBF925F004F6D6D /* GamePage.swift */,
+				CE1BA1962DBF8E96004F6D6D /* LoginView.swift */,
+				CE1BA1922DBF8E74004F6D6D /* RegisterView.swift */,
+				CE1BA18E2DBF8B3A004F6D6D /* AppDelegate.swift */,
+				CE858AF22DBF852B00639EBC /* KelimeOyunlari */,
+				CE858B032DBF852E00639EBC /* KelimeOyunlariTests */,
+				CE858B0D2DBF852E00639EBC /* KelimeOyunlariUITests */,
+				CE858AF12DBF852B00639EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE858AF12DBF852B00639EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE858AF02DBF852B00639EBC /* KelimeOyunlari.app */,
+				CE858B002DBF852E00639EBC /* KelimeOyunlariTests.xctest */,
+				CE858B0A2DBF852E00639EBC /* KelimeOyunlariUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE858AF22DBF852B00639EBC /* KelimeOyunlari */ = {
+			isa = PBXGroup;
+			children = (
+				CE858AF32DBF852B00639EBC /* KelimeOyunlariApp.swift */,
+				CE858B222DBF871500639EBC /* GoogleService-Info.plist */,
+				CE858AF52DBF852B00639EBC /* ContentView.swift */,
+				CE858AF72DBF852E00639EBC /* Assets.xcassets */,
+				CE858AF92DBF852E00639EBC /* Preview Content */,
+			);
+			path = KelimeOyunlari;
+			sourceTree = "<group>";
+		};
+		CE858AF92DBF852E00639EBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE858AFA2DBF852E00639EBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE858B032DBF852E00639EBC /* KelimeOyunlariTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE858B042DBF852E00639EBC /* KelimeOyunlariTests.swift */,
+			);
+			path = KelimeOyunlariTests;
+			sourceTree = "<group>";
+		};
+		CE858B0D2DBF852E00639EBC /* KelimeOyunlariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE858B0E2DBF852E00639EBC /* KelimeOyunlariUITests.swift */,
+				CE858B102DBF852E00639EBC /* KelimeOyunlariUITestsLaunchTests.swift */,
+			);
+			path = KelimeOyunlariUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE858AEF2DBF852B00639EBC /* KelimeOyunlari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE858B142DBF852E00639EBC /* Build configuration list for PBXNativeTarget "KelimeOyunlari" */;
+			buildPhases = (
+				CE858AEC2DBF852B00639EBC /* Sources */,
+				CE858AED2DBF852B00639EBC /* Frameworks */,
+				CE858AEE2DBF852B00639EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KelimeOyunlari;
+			packageProductDependencies = (
+				CE858B1E2DBF866900639EBC /* FirebaseAuth */,
+				CE858B202DBF866900639EBC /* FirebaseFirestore */,
+			);
+			productName = KelimeOyunlari;
+			productReference = CE858AF02DBF852B00639EBC /* KelimeOyunlari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE858AFF2DBF852E00639EBC /* KelimeOyunlariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE858B172DBF852E00639EBC /* Build configuration list for PBXNativeTarget "KelimeOyunlariTests" */;
+			buildPhases = (
+				CE858AFC2DBF852E00639EBC /* Sources */,
+				CE858AFD2DBF852E00639EBC /* Frameworks */,
+				CE858AFE2DBF852E00639EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE858B022DBF852E00639EBC /* PBXTargetDependency */,
+			);
+			name = KelimeOyunlariTests;
+			productName = KelimeOyunlariTests;
+			productReference = CE858B002DBF852E00639EBC /* KelimeOyunlariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE858B092DBF852E00639EBC /* KelimeOyunlariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE858B1A2DBF852E00639EBC /* Build configuration list for PBXNativeTarget "KelimeOyunlariUITests" */;
+			buildPhases = (
+				CE858B062DBF852E00639EBC /* Sources */,
+				CE858B072DBF852E00639EBC /* Frameworks */,
+				CE858B082DBF852E00639EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE858B0C2DBF852E00639EBC /* PBXTargetDependency */,
+			);
+			name = KelimeOyunlariUITests;
+			productName = KelimeOyunlariUITests;
+			productReference = CE858B0A2DBF852E00639EBC /* KelimeOyunlariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE858AE82DBF852B00639EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CE858AEF2DBF852B00639EBC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CE858AFF2DBF852E00639EBC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CE858AEF2DBF852B00639EBC;
+					};
+					CE858B092DBF852E00639EBC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CE858AEF2DBF852B00639EBC;
+					};
+				};
+			};
+			buildConfigurationList = CE858AEB2DBF852B00639EBC /* Build configuration list for PBXProject "KelimeOyunlari" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE858AE72DBF852B00639EBC;
+			packageReferences = (
+				CE858B1D2DBF866900639EBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CE858AF12DBF852B00639EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE858AEF2DBF852B00639EBC /* KelimeOyunlari */,
+				CE858AFF2DBF852E00639EBC /* KelimeOyunlariTests */,
+				CE858B092DBF852E00639EBC /* KelimeOyunlariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE858AEE2DBF852B00639EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE858AFB2DBF852E00639EBC /* Preview Assets.xcassets in Resources */,
+				CE858AF82DBF852E00639EBC /* Assets.xcassets in Resources */,
+				CE858B232DBF871500639EBC /* GoogleService-Info.plist in Resources */,
+				CE4F89622DC1898F007EBA8E /* turkce_kelime_listesi.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE858AFE2DBF852E00639EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE858B082DBF852E00639EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE858AEC2DBF852B00639EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4F89642DC189AA007EBA8E /* WordValidator.swift in Sources */,
+				CE1BA18F2DBF8B3A004F6D6D /* AppDelegate.swift in Sources */,
+				CE4F895E2DC16E99007EBA8E /* GameBoardView.swift in Sources */,
+				CE5C915E2DC203D500310B57 /* FirestoreService.swift in Sources */,
+				CE1BA1932DBF8E74004F6D6D /* RegisterView.swift in Sources */,
+				CE1BA1A32DBFAAAE004F6D6D /* GameModel.swift in Sources */,
+				CE1BA1992DBF925F004F6D6D /* GamePage.swift in Sources */,
+				CE1BA19F2DBFA8EF004F6D6D /* ActiveGamesView.swift in Sources */,
+				CE1BA1A12DBFA97E004F6D6D /* FinishedGamesView.swift in Sources */,
+				CE858AF62DBF852B00639EBC /* ContentView.swift in Sources */,
+				CE4F89602DC17C21007EBA8E /* TopBarView.swift in Sources */,
+				CE5C91602DC2040400310B57 /* GameData.swift in Sources */,
+				CE1BA1972DBF8E96004F6D6D /* LoginView.swift in Sources */,
+				CE1EE87C2DC75630004A5111 /* LetterTileView.swift in Sources */,
+				CE858AF42DBF852B00639EBC /* KelimeOyunlariApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE858AFC2DBF852E00639EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE858B052DBF852E00639EBC /* KelimeOyunlariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE858B062DBF852E00639EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE858B112DBF852E00639EBC /* KelimeOyunlariUITestsLaunchTests.swift in Sources */,
+				CE858B0F2DBF852E00639EBC /* KelimeOyunlariUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE858B022DBF852E00639EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE858AEF2DBF852B00639EBC /* KelimeOyunlari */;
+			targetProxy = CE858B012DBF852E00639EBC /* PBXContainerItemProxy */;
+		};
+		CE858B0C2DBF852E00639EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE858AEF2DBF852B00639EBC /* KelimeOyunlari */;
+			targetProxy = CE858B0B2DBF852E00639EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE858B122DBF852E00639EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE858B132DBF852E00639EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE858B152DBF852E00639EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KelimeOyunlari/Preview Content\"";
+				DEVELOPMENT_TEAM = JAZW33WX2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = busrakuru.KelimeOyunlari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE858B162DBF852E00639EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KelimeOyunlari/Preview Content\"";
+				DEVELOPMENT_TEAM = JAZW33WX2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = busrakuru.KelimeOyunlari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE858B182DBF852E00639EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAZW33WX2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = busrakuru.KelimeOyunlariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelimeOyunlari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelimeOyunlari";
+			};
+			name = Debug;
+		};
+		CE858B192DBF852E00639EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAZW33WX2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = busrakuru.KelimeOyunlariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelimeOyunlari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelimeOyunlari";
+			};
+			name = Release;
+		};
+		CE858B1B2DBF852E00639EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAZW33WX2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = busrakuru.KelimeOyunlariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KelimeOyunlari;
+			};
+			name = Debug;
+		};
+		CE858B1C2DBF852E00639EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAZW33WX2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = busrakuru.KelimeOyunlariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KelimeOyunlari;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE858AEB2DBF852B00639EBC /* Build configuration list for PBXProject "KelimeOyunlari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE858B122DBF852E00639EBC /* Debug */,
+				CE858B132DBF852E00639EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE858B142DBF852E00639EBC /* Build configuration list for PBXNativeTarget "KelimeOyunlari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE858B152DBF852E00639EBC /* Debug */,
+				CE858B162DBF852E00639EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE858B172DBF852E00639EBC /* Build configuration list for PBXNativeTarget "KelimeOyunlariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE858B182DBF852E00639EBC /* Debug */,
+				CE858B192DBF852E00639EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE858B1A2DBF852E00639EBC /* Build configuration list for PBXNativeTarget "KelimeOyunlariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE858B1B2DBF852E00639EBC /* Debug */,
+				CE858B1C2DBF852E00639EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE858B1D2DBF866900639EBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE858B1E2DBF866900639EBC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE858B1D2DBF866900639EBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CE858B202DBF866900639EBC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE858B1D2DBF866900639EBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE858AE82DBF852B00639EBC /* Project object */;
+}
